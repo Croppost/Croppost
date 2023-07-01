@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skapa användare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Skapa användare</h2>
+    <form action="/createUser" method="POST">
+        <label for="anvandarnamn">Användarnamn:</label>
+        <input type="text" name="anvandarnamn" required><br><br>
+
+        <label for="losenord">Lösenord:</label>
+        <input type="password" name="losenord" required><br><br>
+
+        <label for="fornamn">Förnamn:</label>
+        <input type="text" name="fornamn" required><br><br>
+
+        <label for="efternamn">Efternamn:</label>
+        <input type="text" name="efternamn" required><br><br>
+
+        <label for="epost">E-postadress:</label>
+        <input type="email" name="epost" required><br><br>
+
+        <label for="fodelsedatum">Födelsedatum:</label>
+        <input type="date" name="fodelsedatum" required><br><br>
+
+        <label for="bostadsort">Bostadsort:</label>
+        <input type="text" name="bostadsort"><br><br>
+
+        <input type="submit" value="Skapa användare">
+    </form>
+    <a href="/">Return</a><br>
+</body>
+</html>

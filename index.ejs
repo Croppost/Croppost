@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Min Express-app med EJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Välkommen till min Express-app med EJS!</h1>
+    <p>Aktuell tid: <%= new Date().toLocaleTimeString() %></p>
+
+    
+
+    <h1>CropPost.com</h1>
+
+    
+        <h1>Inloggning</h1>
+        <form method="POST" action="/login">
+            <label for="anvandarnamn">Användarnamn:</label>
+            <input type="text" id="anvandarnamn" name="anvandarnamn" required>
+    
+            <label for="losenord">Lösenord:</label>
+            <input type="password" id="losenord" name="losenord" required>
+    
+            <button type="submit">Logga in</button>
+        </form>
+
+    <a href="user">Sign up</a><br>
+
+    <p>CropPost is a community for hobby farmers<br>
+        to sell their corps at good prices online</p>
+
+
+
+</body>
+</html>
